@@ -7,7 +7,6 @@ class Employee{
         System.out.println("  Emp ID: " +Emp_id +"\n"+"  Name: "+Emp_name+"\n"+"  Organisation: "+Organisation);
     }
 }
-
 class Faculty extends Employee{
     String Department;
     String subject;
