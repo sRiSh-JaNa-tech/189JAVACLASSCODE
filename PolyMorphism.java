@@ -11,11 +11,21 @@ class EmployeePoly{
     }
 }
 
+class FacultyPoly extends EmployeePoly{
+    String Department;
+    String subject;
+    String Designation;
+    void facultyDetails(){
+        super.details();
+        System.out.println("  Department: "+Department +"\n"+"  Subject: "+subject+"\n"+"  Designation:"+Designation);
+    } 
+}
 
 public class PolyMorphism {
     public static void main(String[] args) {
         EmployeePoly e = new EmployeePoly();
         e.Emp_name="Deepak Kumar";
+        //Compile time polymorphism
         e.details();
         e.details(25000);
         e.details("KIET");
