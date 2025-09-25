@@ -1,4 +1,4 @@
-public class ThredPriority {
+public class ThreadPriority {
     public static void main(String[] args) {
         // Create threads with different priorities
         Thread t1 = new Thread(() -> {
