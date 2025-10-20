@@ -11,7 +11,7 @@ public class PracticeArr {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of students: ");
         int n = sc.nextInt();
-        for(int i = 0;i < 2;i++){
+        for(int i = 0;i < n;i++){
             System.out.print("Enter student name: ");
             String name = sc.next();
             School.put(name, new ArrayList<>(subjectsInd.size()));
